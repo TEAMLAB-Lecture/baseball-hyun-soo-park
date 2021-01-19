@@ -73,6 +73,7 @@ def is_duplicated_number(three_digit):
     # Output:
     #   - three_digit 정수로 변환하였을 경우 중복되는 수가 있으면 True,
     #     그렇지 않을 경우는 False
+    #
     #   ex) 117 - True, 123 - False, 103 - False, 113 - True
     # Examples:
     #   >>> import baseball_game as bg
