@@ -28,7 +28,7 @@ class TestBaseballGame(unittest.TestCase):
             self.assertEqual(False, bg.is_between_100_and_999(str(i)))
 
     def test_is_duplicated_number(self):
-        self.assertEqual(False, bg.is_duplicated_number("100"))
+        self.assertEqual(True, bg.is_duplicated_number("100"))
         self.assertEqual(True, bg.is_duplicated_number("110"))
         self.assertEqual(True, bg.is_duplicated_number("111"))
         self.assertEqual(True, bg.is_duplicated_number("220"))
